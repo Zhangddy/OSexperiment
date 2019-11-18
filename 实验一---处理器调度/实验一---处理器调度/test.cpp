@@ -28,7 +28,7 @@ public:
 
 void InitPCB(MyPCB* mpp, int size)
 {
-	// 初始化姓名
+	// 初始化名称
 	for (int i = 1; i <= size; ++i)
 	{
 		mpp[i - 1].pName = "P";
