@@ -191,6 +191,7 @@ void SafetyCheck()
 
 int main()
 {
+	system("color f0");
 	InitDate();
 	SafetyCheck();
 	system("pause");

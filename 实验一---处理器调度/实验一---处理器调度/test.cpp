@@ -92,6 +92,7 @@ void ProcessorScheduling(multiset<MyPCB, myCompare>& multiSetList)
 
 int main()
 {
+	system("color f0");
 	srand((unsigned int)time(0));
 	MyPCB* mpp = new MyPCB[5];
 
